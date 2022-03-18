@@ -10,7 +10,7 @@
   padding-top: 40px;
   padding-left: 175px;
 }
-img {
+.user-image {
   width: 50px;
   height: 50px;
   object-fit: cover;

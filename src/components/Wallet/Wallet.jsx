@@ -28,10 +28,30 @@ const Wallet = () => {
       type: "e-commerce",
     },
   ];
+  const beneficiaries = [
+    {
+      id: 1,
+      name: "Eden  Hazard",
+      image:
+        "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2022/03/07172511/former-chelsea-star-eden-hazard-pictured-while-representing-real-madrid-vs-granada.jpg",
+    },
+    {
+      id: 2,
+      name: "Fede Valverde",
+      image:
+        "https://cdn.vox-cdn.com/thumbor/7x1AiVomGXSfIkgNmdxMvyWNNs0=/0x0:3000x4499/1200x800/filters:focal(1276x654:1756x1134)/cdn.vox-cdn.com/uploads/chorus_image/image/68704479/1230723159.0.jpg",
+    },
+    {
+      id: 3,
+      name: "Vincius Junior",
+      image:
+        "https://whatmobileno.com/wp-content/uploads/2021/11/Vinicius-Junior.jpg",
+    },
+  ];
   return (
     <div className={styles.wallet}>
       <div className={styles["image-container"]}>
-        <img src={url} alt="user-profile" />
+        <img className={styles["user-image"]} src={url} alt="user-profile" />
       </div>
       <div className={styles["wallet-info"]}>
         <div className={styles.title}>Main Wallet</div>
@@ -54,9 +74,14 @@ const Wallet = () => {
           <div className={styles["dashed-outline"]}>
             <div className={styles.add}></div>
           </div>
-          <Beneficiarycard />
-          <Beneficiarycard />
-          <Beneficiarycard />
+
+          {beneficiaries.map((beneficiary) => (
+            <Beneficiarycard
+              key={beneficiary.id}
+              name={beneficiary.name}
+              image={beneficiary.image}
+            />
+          ))}
         </div>
         <div className={styles["transaction-history"]}>
           {histories.map((history) => (
