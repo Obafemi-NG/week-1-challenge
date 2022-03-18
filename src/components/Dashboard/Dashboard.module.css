@@ -4,7 +4,9 @@
   width: 237px;
   height: 468px;
   margin-top: 0;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 .profile {
   width: 30px;
@@ -23,7 +25,7 @@
 .arrow-back-icon {
   color: rgb(117, 117, 117);
 
-  padding: 2px;
+  padding: 5px;
 }
 
 .top {
@@ -33,4 +35,71 @@
   justify-content: space-between;
   padding: 20px 12px 0 12px;
   padding-bottom: 10px;
+}
+.heading {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 12px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.add {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: rgb(117, 117, 117);
+}
+.add p {
+  font-weight: 700;
+  color: rgba(103, 32, 170, 0.61);
+}
+.add-new-icon {
+  /* font-size: 4px; */
+  padding: 5px;
+}
+.upgrade {
+  /* border: 1px solid black; */
+  width: 213px;
+  height: 80px;
+  align-self: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px 12px 10px 12px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -moz-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=annie-spratt-6a3nqQ1YwBw-unsplash.jpg");
+}
+
+.badge {
+  width: 30px;
+  height: 15px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: rgba(103, 32, 170, 0.61);
+  font-weight: 650;
+  background-color: white;
+}
+.bottom {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom .text {
+  font-size: 12px;
+  font-weight: 300;
+}
+.arrow-forward-icon {
+  font-size: 16px;
 }

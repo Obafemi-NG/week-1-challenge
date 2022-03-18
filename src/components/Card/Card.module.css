@@ -1,0 +1,73 @@
+.card {
+  width: 213px;
+  height: 80px;
+  /* border: 1px solid black; */
+  align-self: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -moz-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+}
+
+.main,
+.savings,
+.summer {
+  /* border: 1px solid black; */
+  width: 213px;
+  height: 80px;
+  align-self: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -moz-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+}
+
+.main {
+  background: #1ec3f0;
+  background: linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+  background: -webkit-linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+  background: -moz-linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+}
+.savings {
+  background: #a156c4;
+  background: linear-gradient(115deg, #a156c4 0%, #56017f 80%);
+  background: -webkit-linear-gradient(115deg, #a156c4 0%, #56017f 80%);
+  background: -moz-linear-gradient(115deg, #a156c4 0%, #56017f 80%);
+}
+.summer {
+  background: #fb7107;
+  background: linear-gradient(115deg, #fb7107 0%, #ffb939 80%);
+  background: -webkit-linear-gradient(115deg, #fb7107 0%, #ffb939 80%);
+  background: -moz-linear-gradient(115deg, #fb7107 0%, #ffb939 80%);
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 12px 4px 12px;
+}
+.left {
+  align-self: flex-end;
+}
+.title {
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+}
+.amount {
+  margin-top: 5px;
+  color: white;
+  font-weight: 600;
+}
+.percentage {
+  font-size: 10px;
+  font-weight: 400;
+}
+.positive {
+  color: green;
+}
+.negative {
+  color: red;
+}
