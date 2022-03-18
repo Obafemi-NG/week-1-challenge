@@ -1,5 +1,5 @@
 .wallet {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   border-radius: 30px;
   width: 237px;
   height: 468px;
@@ -24,4 +24,48 @@ img {
 .title {
   font-weight: 600;
   color: rgb(54, 54, 54);
+}
+.send-section {
+  padding: 17px 12px;
+}
+.send-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.send-title {
+  font-size: 12px;
+  color: #07065a;
+  font-weight: 600;
+}
+.icon {
+  padding: 4px;
+}
+
+.beneficiaries {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.dashed-outline {
+  width: 50px;
+  height: 60px;
+  border: 1px dashed #8102c0;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.add {
+  /* padding: 2px; */
+  width: 49px;
+  height: 59px;
+  border-radius: 4px;
+  background: #590582;
+  background: linear-gradient(126deg, #590582 0%, #c360f3 90%);
+  background: -webkit-linear-gradient(126deg, #590582 0%, #c360f3 90%);
+  background: -moz-linear-gradient(126deg, #590582 0%, #c360f3 90%);
+}
+.transaction-history {
+  padding-top: 10px;
 }

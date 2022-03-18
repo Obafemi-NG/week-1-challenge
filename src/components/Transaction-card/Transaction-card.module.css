@@ -1,0 +1,45 @@
+.card {
+  width: 213px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.icon {
+  /* background-color: red; */
+  padding: 4px;
+  border-radius: 5px;
+}
+.utility {
+  background-color: rgba(255, 166, 0, 0.377);
+  color: orange;
+}
+.e-commerce {
+  background-color: rgba(0, 0, 255, 0.377);
+  color: blue;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+}
+.name {
+  font-size: 14px;
+  color: #07065a;
+  font-weight: 600;
+}
+.date {
+  font-size: 10px;
+  color: #828282;
+}
+.cost {
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+}
