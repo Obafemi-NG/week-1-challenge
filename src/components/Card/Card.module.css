@@ -42,6 +42,7 @@
   background: -webkit-linear-gradient(115deg, #fb7107 0%, #ffb939 80%);
   background: -moz-linear-gradient(115deg, #fb7107 0%, #ffb939 80%);
 }
+
 .top {
   display: flex;
   align-items: center;

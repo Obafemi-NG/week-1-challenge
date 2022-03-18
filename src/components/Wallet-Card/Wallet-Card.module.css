@@ -1,0 +1,31 @@
+.main-wallet {
+  width: 213px;
+  height: 120px;
+  align-self: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  -moz-box-shadow: 1px 2px 7px 1px rgba(222, 222, 222, 0.75);
+  background: #1ec3f0;
+  background: linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+  background: -webkit-linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+  background: -moz-linear-gradient(115deg, #1ec3f0 0%, #7ff8d9 80%);
+}
+.top {
+  padding: 5px 10px;
+}
+.amount {
+  font-size: 24px;
+  margin-top: 5px;
+  color: white;
+  font-weight: 600;
+}
+.card-number {
+  font-size: 10px;
+  color: white;
+}
+.percentage {
+  font-size: 10px;
+  font-weight: 400;
+}

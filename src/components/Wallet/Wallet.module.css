@@ -4,5 +4,24 @@
   width: 237px;
   height: 468px;
   margin-top: 100px;
-  position: relative;
+}
+
+.image-container {
+  padding-top: 40px;
+  padding-left: 175px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: -20% 0;
+  border-radius: 50%;
+}
+
+.wallet-info {
+  padding: 0 12px;
+}
+.title {
+  font-weight: 600;
+  color: rgb(54, 54, 54);
 }
