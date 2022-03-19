@@ -1,6 +1,15 @@
+import Progressbar from "../Progress-bar/Progress-bar";
 import styles from "./Card.module.css";
 
-const Card = ({ type, title, amount, percentage, value }) => {
+const Card = ({
+  type,
+  title,
+  amount,
+  percentage,
+  value,
+  color,
+  totalPercentage,
+}) => {
   return (
     <div className={styles[type]}>
       <div className={styles.top}>
@@ -14,6 +23,17 @@ const Card = ({ type, title, amount, percentage, value }) => {
           </p>
         </div>
       </div>
+      <Progressbar
+        progressStyle={{
+          marginLeft: "12px",
+          height: "3px",
+          position: "relative",
+          width: "193px",
+          borderRadius: "8px",
+          background: "white",
+        }}
+        fillerStyle={{ width: `${totalPercentage}%`, background: `${color}` }}
+      />
     </div>
   );
 };

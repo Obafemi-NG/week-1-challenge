@@ -50,16 +50,42 @@
 }
 .dashed-outline {
   width: 50px;
-  height: 60px;
+  height: 55px;
   border: 1px dashed #8102c0;
   display: flex;
   align-items: center;
   border-radius: 4px;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.icon-container {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;
+  margin-bottom: 3px;
+}
+.add-icon {
+  color: white;
+  padding: 7px;
+}
+.add-new {
+  font-size: 8px;
+  text-align: center;
+  color: white;
+}
+
 .add {
   /* padding: 2px; */
   width: 49px;
-  height: 59px;
+  height: 54px;
   border-radius: 4px;
   background: #590582;
   background: linear-gradient(126deg, #590582 0%, #c360f3 90%);

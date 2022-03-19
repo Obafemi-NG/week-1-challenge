@@ -4,6 +4,7 @@ import userImage from "../../assets/user.jpg";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import SimCardRoundedIcon from "@mui/icons-material/SimCardRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import AddRoundedIcon from "@mui/icons-material/AddRounded";
 
 import Beneficiarycard from "../Beneficiary-Card/Beneficiary-card";
 import Transactioncard from "../Transaction-card/Transaction-card";
@@ -60,6 +61,8 @@ const Wallet = () => {
           amount="2049.95"
           percentage="32"
           cardNumber="(808) 555-0111"
+          color="yellow"
+          totalPercentage="62"
         />
       </div>
       <div className={styles["send-section"]}>
@@ -72,7 +75,16 @@ const Wallet = () => {
         </div>
         <div className={styles["beneficiaries"]}>
           <div className={styles["dashed-outline"]}>
-            <div className={styles.add}></div>
+            <div className={styles.add}>
+              <div className={styles.content}>
+                <div className={styles["icon-container"]}>
+                  <AddRoundedIcon className={styles["add-icon"]} />
+                </div>
+                <div>
+                  <p className={styles["add-new"]}>Add New Contact</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {beneficiaries.map((beneficiary) => (

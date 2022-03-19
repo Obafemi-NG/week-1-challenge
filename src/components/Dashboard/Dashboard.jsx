@@ -41,6 +41,8 @@ const Dashboard = () => {
         amount="2049.95"
         percentage="32"
         value="positive"
+        color="yellow"
+        totalPercentage="62"
       />
       <Card
         type="savings"
@@ -48,6 +50,8 @@ const Dashboard = () => {
         amount="65.14"
         percentage="0.4"
         value="negative"
+        color="red"
+        totalPercentage="30"
       />
       <Card
         type="summer"
@@ -55,6 +59,8 @@ const Dashboard = () => {
         amount="547.56"
         percentage="2.6"
         value="positive"
+        color="blue"
+        totalPercentage="45"
       />
     </div>
   );

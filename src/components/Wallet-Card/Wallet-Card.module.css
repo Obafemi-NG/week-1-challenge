@@ -15,6 +15,9 @@
 .top {
   padding: 5px 10px;
 }
+.bottom {
+  padding-top: 10px;
+}
 .amount {
   font-size: 24px;
   margin-top: 5px;
@@ -28,4 +31,14 @@
 .percentage {
   font-size: 10px;
   font-weight: 400;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: 500;
+  margin-left: 178px;
+}
+.message {
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 12px;
 }
