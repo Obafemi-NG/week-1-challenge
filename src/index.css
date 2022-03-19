@@ -7,3 +7,9 @@ body {
   background-color: #d97afb;
   font-family: "Nunito", sans-serif;
 }
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+    display: grid;
+  }
+}

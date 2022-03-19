@@ -5,10 +5,10 @@ import Wallet from "./components/Wallet/Wallet";
 function App() {
   return (
     <div className={styles.app}>
-      <div>
+      <div className={styles.dashboard}>
         <Dashboard />
       </div>
-      <div>
+      <div className={styles.wallet}>
         <Wallet />
       </div>
     </div>

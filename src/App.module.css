@@ -4,3 +4,10 @@
   justify-content: center;
   gap: 10%;
 }
+@media screen and (max-width: 760px) {
+  .app {
+    display: grid;
+    gap: 2%;
+    padding: 20px;
+  }
+}
