@@ -1,4 +1,7 @@
+// imported local component.
 import Progressbar from "../Progress-bar/Progress-bar";
+
+// imported styles for this component.
 import styles from "./Card.module.css";
 
 const Card = ({

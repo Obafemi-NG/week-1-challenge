@@ -1,3 +1,4 @@
+// imported styles for this component
 import "./Progress-bar.css";
 
 const Progressbar = ({ progressStyle, fillerStyle }) => {

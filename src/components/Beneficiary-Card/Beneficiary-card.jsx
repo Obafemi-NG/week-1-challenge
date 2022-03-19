@@ -1,3 +1,4 @@
+// imported styles for this component
 import styles from "./Beneficiary-Card.module.css";
 
 const Beneficiarycard = ({ name, image }) => {

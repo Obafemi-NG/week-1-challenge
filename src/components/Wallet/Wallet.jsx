@@ -1,16 +1,24 @@
+// imported styles for this component
 import styles from "./Wallet.module.css";
+
+// imported local component.
+import Beneficiarycard from "../Beneficiary-Card/Beneficiary-card";
+import Transactioncard from "../Transaction-card/Transaction-card";
 import WalletCard from "../Wallet-Card/Wallet-Card";
+
+// imported image as a visual example of the user profile avatar
 import userImage from "../../assets/user.jpg";
+
+// imported Material UI
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import SimCardRoundedIcon from "@mui/icons-material/SimCardRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 
-import Beneficiarycard from "../Beneficiary-Card/Beneficiary-card";
-import Transactioncard from "../Transaction-card/Transaction-card";
-
 const Wallet = () => {
   let url = userImage;
+
+  // objects below contains data that are just based on assumption just so that we do not hard code these data.
   const histories = [
     {
       id: 1,
@@ -49,6 +57,8 @@ const Wallet = () => {
         "https://whatmobileno.com/wp-content/uploads/2021/11/Vinicius-Junior.jpg",
     },
   ];
+  // ...
+
   return (
     <div className={styles.wallet}>
       <div className={styles["image-container"]}>

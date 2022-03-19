@@ -1,4 +1,7 @@
+// imported local component
 import Progressbar from "../Progress-bar/Progress-bar";
+
+// imported style for this component
 import styles from "./Wallet-Card.module.css";
 
 const WalletCard = ({
