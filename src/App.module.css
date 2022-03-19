@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 10%;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 670px) {
   .app {
     display: grid;
     gap: 2%;
